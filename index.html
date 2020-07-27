@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WrapDown</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .wrapper {
+            position: relative;
+        }
+
+        .encart {
+            position: relative;
+            background: tomato;
+            float: right;
+            width: 33.33%;
+        }
+
+        @media screen and (max-width: 991.98px) {
+            .content {
+                transform: rotate(180deg);
+            }
+
+            .encart {
+                transform: rotate(180deg);
+                width: 100%;
+                float: none;
+            }
+
+            .wrapper {
+                transform: rotate(180deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <footer class="encart">
+        <ul>
+            Title :
+            <li>Topic 1</li>
+            <li>Topic 2</li>
+            <li>Topic 3
+            <li>Topic 4</li>
+            <li>Topic 5</li>
+            <li>Topic 6</li>
+            <li>Topic 7</li>
+            <li>Topic 8</li>
+            <li>Topic 9</li>
+            <li>Topic 10</li>
+            <li>Topic 11</li>
+            <li>Topic 12</li>
+            <li>Topic 13</li>
+            <li>Topic 14</li>
+            <li>Topic 15</li>
+        </ul>
+    </footer>
+    <main class="content">
+        <p>Wrap text around floated DIV on desktop, put unfloated div under text on mobile (Breakpoint at 991.98px). Fluid.</p>
+        <p>Responsive - Menu is pulled down on mobile, tablet - Text is wrap under floated div when Desktop - <a
+                href="https://stackoverflow.com/questions/311990/how-do-i-get-a-div-to-float-to-the-bottom-of-its-container">Some
+            help</a>
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu ullamcorper ex. Duis diam orci,
+            hendrerit maximus ipsum sed, vestibulum rutrum felis. Phasellus scelerisque, libero quis imperdiet
+            tincidunt, mi orci gravida velit, vel porta quam augue a arcu. Vestibulum augue dui, finibus non feugiat
+            vel, cursus eget arcu. Praesent nec vehicula nisi. Donec fringilla et lectus non pharetra. Praesent vel
+            varius nunc. Aenean lobortis mauris lectus, et finibus sapien suscipit quis. Nam ultricies, ipsum sit amet
+            elementum dapibus, sapien metus molestie metus, ut convallis turpis neque in nulla. Nullam ac leo est. In
+            nec congue libero. Ut quis lorem quis nunc pharetra congue.</p>
+
+        <p>Integer fermentum pharetra lorem, vel semper odio euismod a. Nullam turpis sem, rhoncus non nibh a, commodo
+            faucibus nisl. Etiam ante justo, iaculis quis vehicula ac, lobortis at augue. Donec blandit turpis venenatis
+            est elementum, a lobortis nibh fringilla. Aenean sed malesuada velit. Donec elementum dignissim sem, non
+            tempus sem sagittis sit amet. Cras imperdiet sem ut est eleifend maximus. Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur consequat dictum nulla, ac
+            egestas erat aliquet non. Morbi aliquam elit et tempor sollicitudin. Ut sit amet risus ut nunc porttitor
+            pretium nec quis enim. Nulla sit amet nunc non enim facilisis laoreet vehicula et diam.</p>
+
+        <p>Duis in est in magna eleifend elementum. Nullam diam mauris, aliquet et gravida non, convallis sed tortor.
+            Etiam non tristique mauris. Nullam id euismod orci, convallis ullamcorper nisi. Cras ut cursus odio. Duis
+            quis commodo dolor. Morbi et justo nec orci auctor sollicitudin. Nulla facilisi. Sed eu purus in sapien
+            commodo rutrum at non odio. Vestibulum venenatis est vitae massa semper volutpat. Donec tristique risus ac
+            congue pellentesque. Duis facilisis dignissim fringilla.</p>
+
+        <p>Etiam tincidunt faucibus mattis. Sed nec nisi et nunc consequat ultrices et eu libero. Suspendisse pretium mi
+            et ipsum viverra luctus. Ut tempor eleifend imperdiet. Integer sit amet enim quis velit congue interdum.
+            Proin eget ex pretium, maximus diam et, vulputate risus. Etiam sed tempus odio, sit amet bibendum neque. Sed
+            sit amet enim eu purus dapibus finibus.</p>
+
+        <p>In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non blandit
+            turpis. Cras et erat pulvinar, porttitor nisi at, laoreet nisl. Nulla facilisi. Nunc eu lacus odio. Fusce
+            vitae metus sed ex volutpat tincidunt. Aliquam at feugiat libero. Interdum et malesuada fames ac ante ipsum
+            primis in faucibus. Vestibulum condimentum purus at semper eleifend.</p>
+    </main>
+</div>
+</body>
+</html>
