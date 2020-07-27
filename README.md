@@ -1,4 +1,4 @@
-wrap text around floated DIV on desktop, put unfloated div under text on mobile (Breakpoint at 991.98px). Fluid.
+Wrap text around floated DIV on desktop, put unfloated div under text on mobile (Breakpoint at 991.98px). Fluid.
 
 Responsive - Menu is pulled down on mobile, tablet - Text is wrap around floated div when Desktop.
 
